@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <style>
+        h1 {
+            background-color: rgb(167, 107, 39);
+            /* padding: 10px; */
+            position: relative;
+        }
+
+        h1::before {
+            content: "";
+            position: absolute;
+            height: 30px;
+            width: 10%;
+            transition: all 2s linear;
+            background-color: rgb(44, 44, 38);
+        }
+        h1:hover:before {
+            content: "";
+            position: absolute;
+            height: 30px;
+            width: 50%;
+            transition: all 2s linear;
+            background-color: rgb(44, 44, 38);
+        }
+        h1::after {
+            content: "";
+            position: absolute;
+            height: 30px;
+            width: 10%;
+            transition: all 5s linear;
+            background-color: rgb(247, 247, 2);
+            right: 0;
+            bottom: 0;
+        }
+        h1:hover:after {
+            content: "";
+            position: absolute;
+            height: 10px;
+            width: 50%;
+            background-color: rgb(247, 247, 2);
+            right: 0;
+            bottom: 0;
+        }
+/* 
+        h1:hover:before {
+            content: "";
+            height: 10px;
+            width: 100%;
+            position: absolute;
+        }
+
+        h1::after {
+            content: "";
+            position: absolute;
+            height: 30px;
+            width: 0%;
+            transition: all 2s linear;
+            background-color: rgb(44, 44, 38);
+
+
+
+
+        }
+
+        h1:hover:after {
+            content: "";
+            height: 10px;
+            width: 100%;
+            position: absolute;
+            bottom: 0;
+        } */
+
+        /* h1::after {
+            content: "After Added";
+        } */
+    </style>
+    <h1>
+        Head
+
+    </h1>
+</body>
+
+</html>
