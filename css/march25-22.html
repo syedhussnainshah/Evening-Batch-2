@@ -10,6 +10,69 @@
 
 <body>
     <style>
+        .Slider {
+            height: 90vh;
+            width: 100%;
+            /* background-color: blue; */
+            /* background-image: url('../image/1.jpg'); */
+            background-size: cover;
+            background-position: center;
+            animation: slider 10s infinite;
+        }
+
+        @keyframes slider {
+            0% {
+                background-color: blue;
+                /* background-image: url('../image/1.jpg'); */
+            }
+
+            25% {
+                background-color: yellow;
+                /* background-image: url('../image/2.jpg'); */
+
+            }
+
+            50% {
+                background-color: pink;
+                width: 50%;
+                transform: rotate(270deg);
+
+                /* background-image: url('../image/3.jpg'); */
+
+            }
+
+            75% {
+                border-radius: 20%;
+                background-color: brown;
+                /* background-image: url('../image/4.jpg'); */
+
+            }
+
+            100% {
+                background-color: black;
+                /* background-image: url('../image/5.jpg'); */
+
+            }
+        }
+    </style>
+    <div class="Slider">
+
+    </div>
+</body>
+
+</html>
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <style>
         h1 {
             background-color: rgb(167, 107, 39);
             /* padding: 10px; */
@@ -90,4 +153,4 @@
     </h1>
 </body>
 
-</html>
+</html> -->
