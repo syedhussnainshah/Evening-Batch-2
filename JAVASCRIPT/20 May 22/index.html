@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <input type="text" id="input1">
+    <input type="text" id="input2">
+    <button id="BTN">Click Me</button>
+    <script>
+        let input1 = document.getElementById("input1");
+        let input2 = document.getElementById("input2");
+        let btn = document.getElementById("BTN");
+        btn.addEventListener('click', function () {
+            let z = parseInt(input1.value) + parseInt(input2.value);
+
+            console.log(z);
+        });
+    </script>
+</body>
+
+
+</html>

@@ -1,0 +1,568 @@
+:root {
+    --clor: #062C30;
+    --clor2: #05595B;
+    --clor3: #E2D784;
+    --clor4: #F5F5F5;
+}
+
+.mainwrape {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.uphead {
+    height: 6vh;
+    width: 100%;
+    border: 2px solid;
+    background-color: var(--clor2);
+    color: var(--clor3)
+}
+
+.uphead ul {
+    display: flex;
+    list-style: none;
+    margin: 0%;
+    margin-top: 0.6%;
+}
+
+.uphead ul a {
+    margin: 0% 0% 0% 2%;
+    color: #E2D784;
+}
+
+.uphead ul li:nth-child(5) {
+    margin-left: 42%
+}
+
+.uphead ul li:nth-child(6) {
+    margin-left: 4%;
+}
+
+.uphead ul li:nth-child(7) {
+    margin-left: 4%;
+    margin-right: 2%;
+}
+
+.uphead button {
+    background-color: var(--clor2);
+    color: var(--clor3);
+    border: none;
+}
+
+
+/* uphead bar done /////////////////////////////////////////////////////////////////////////////////////////// */
+
+.header {
+    border: 2px solid;
+    height: 15vh;
+    width: 100%;
+    color: var(--clor3);
+    background-color: var(--clor2);
+}
+
+.header p {
+    margin: 0%;
+    font-size: 50px;
+}
+
+.header ul {
+    display: flex;
+    list-style: none;
+}
+
+.header ul li:nth-child(1) {
+    margin: 0%;
+}
+
+.header ul li:nth-child(2) {
+    margin-left: 28.5%;
+    color: var(--clor4);
+}
+
+.header ul li {
+    margin: 0% 0% 0% 4%;
+    margin-right: 0%;
+    margin-top: 1.5%;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+
+/* header styling done------------------------------------------------------------------------------------------ */
+
+
+/* header dropdown hover started */
+
+.parent {}
+
+.CONTENT {
+    display: none;
+    position: absolute;
+    z-index: 1;
+}
+
+.parent:hover .CONTENT {
+    display: flex;
+    flex-direction: column;
+}
+
+.CONTENT a:hover {
+    background-color: var(--clor4);
+}
+
+.parent a {
+    text-decoration: none;
+    color: var(--clor3);
+}
+
+.parent:hover .CONTENT a {
+    background-color: var(--clor3);
+    padding: 10px;
+    color: var(--clor);
+    margin-top: 10%;
+}
+
+.parent:hover .CONTENT a:hover {
+    background-color: var(--clor4);
+    transition: linear 0.2s;
+}
+
+
+/* mainpage hover drop done-------------------------------------------------------------------------------- */
+
+.parentmc {
+    float: left;
+    position: relative;
+}
+
+.parentmc a {
+    text-decoration: none;
+    color: var(--clor3);
+}
+
+.CONTENTMC {
+    display: none;
+    position: absolute;
+    z-index: 1;
+}
+
+.parentmc:hover .CONTENTMC {
+    display: flex;
+    flex-direction: column;
+}
+
+.parentmc:hover .CONTENTMC a {
+    background-color: var(--clor3);
+    padding: 10px;
+    color: var(--clor);
+    margin-top: 10%;
+}
+
+
+/* header dropdown doneee------------------------------------------------------------------------------- */
+
+.header ul li:nth-child(7) {
+    display: none;
+    margin-right: 5%;
+}
+
+
+/* header media qurie  started-------------------------------------------------------------------------------*/
+
+@media screen AND (max-width:700px) {
+    .header ul li:nth-child(1) {
+        display: block;
+    }
+    .header ul {
+        justify-content: space-between;
+        margin-right: 4%;
+    }
+    .header ul li:nth-child(7) {
+        display: block;
+    }
+    .header ul li {
+        display: none;
+    }
+    .uphead ul {
+        display: non;
+    }
+    .uphead ul li:nth-child(7) {
+        display: none;
+    }
+    .uphead ul li:nth-child(5) {
+        margin-left: 15%;
+    }
+    .down1 {
+        display: flex;
+        flex-direction: column;
+    }
+    .down1 .content img {
+        display: none;
+    }
+    .down2 {
+        display: flex;
+        flex-direction: column;
+        /* display: inline-block; */
+    }
+    .down2 .cata1 {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .down3 .content {
+        overflow: hidden;
+    }
+}
+
+
+/* header media qurie done-------------------------------------------------------------------------------- */
+
+
+/* hewrosection started ----------------------------------------------------------------------- */
+
+.image img {
+    width: 100%;
+    height: 100%;
+}
+
+.image {
+    position: relative;
+    width: 100%;
+    height: 77vh;
+    background-color: red;
+    ;
+}
+
+.content {
+    width: 99%;
+    height: 77vh;
+    background-color: #000;
+    position: absolute;
+    margin-top: -37.5%;
+    opacity: 0.9;
+    margin-bottom: 0%;
+}
+
+.content h1 {
+    font-weight: 200;
+    font-size: 70px;
+    color: var(--clor3);
+    margin-bottom: 0%;
+}
+
+.content input {
+    height: 5.5vh;
+    border-radius: 5px;
+    width: 70%;
+    margin: 2% 0% 2% 2%;
+    border: none;
+    background-color: var(--clor2);
+}
+
+.content button {
+    height: 6vh;
+    width: 7%;
+    margin-left: 0%;
+    border: none;
+    border-radius: 5px;
+}
+
+.iconwrap {
+    /* position: relative; */
+    width: 80%;
+    height: 30vh;
+    /* background-color: #062C30; */
+    display: flex;
+    justify-content: space-around;
+}
+
+.iconwrap a {
+    list-style: none;
+    color: var(--clor);
+    text-decoration: none;
+}
+
+.icon1 i {
+    font-size: 90px;
+    margin-top: 10%;
+}
+
+.icon1:hover {
+    background-color: var(--clor3);
+}
+
+.icon1 {
+    background-color: var(--clor4);
+    justify-content: center;
+    text-align: center;
+    width: 15%;
+    height: 85%;
+    border-radius: 20px;
+    margin: 1%;
+    font-size: 30px;
+}
+
+.icon2 i {
+    font-size: 90px;
+    margin-top: 10%;
+}
+
+.icon2:hover {
+    background-color: var(--clor3);
+}
+
+.icon2 {
+    background-color: var(--clor4);
+    justify-content: center;
+    text-align: center;
+    width: 15%;
+    height: 85%;
+    border-radius: 20px;
+    margin: 1%;
+    font-size: 30px;
+}
+
+.icon3 i {
+    font-size: 90px;
+    margin-top: 10%;
+}
+
+.icon3:hover {
+    background-color: var(--clor3);
+}
+
+.icon3 {
+    background-color: var(--clor4);
+    /* position: absolute; */
+    justify-content: center;
+    text-align: center;
+    width: 15%;
+    height: 85%;
+    border-radius: 20px;
+    margin: 1%;
+    font-size: 30px;
+}
+
+.icon4 i {
+    font-size: 90px;
+    margin-top: 10%;
+}
+
+.icon4:hover {
+    background-color: var(--clor3);
+}
+
+.icon4 {
+    background-color: var(--clor4);
+    /* position: absolute; */
+    justify-content: center;
+    text-align: center;
+    width: 15%;
+    height: 85%;
+    border-radius: 20px;
+    margin: 1%;
+    font-size: 30px;
+}
+
+
+/* hero section doneeee---------------------------------------------------------------------------------- */
+
+.down1 {
+    position: relative;
+    /* display: flex; */
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+}
+
+.down1 .content {
+    position: absolute;
+    background-color: var(--clor4);
+    width: 50%;
+    margin: 0%;
+    height: 100%;
+    text-align: center;
+}
+
+.down1 .pic {
+    background-color: var(--clor3);
+    position: absolute;
+    width: 50%;
+    margin-left: 50%;
+    height: 100%;
+}
+
+.down1 .pic img {
+    height: 100%;
+    width: 100%;
+    margin: 0%;
+}
+
+.down1 .content b {
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.down1 .content strong {
+    font-size: 50px;
+    font-weight: 300;
+}
+
+.down1 .content p {
+    font-size: 20px;
+}
+
+
+/* DROP1 DOWN 1 COMPLETE---------------------------------------------------------------- */
+
+.down2 {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    /* height: 23vh; */
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: var(--clor)
+    /* border: 2px solid; */
+}
+
+.cata1 {
+    display: flex;
+    width: 30%;
+    height: 100%;
+    /* border: 2px solid; */
+    /* justify-content: center; */
+    /* text-align: center; */
+}
+
+.cata1 i {
+    margin: 8% 3% 4% 2%;
+    /* background-color: yellowgreen; */
+    font-size: 70px;
+    /* font-weight: 500; */
+    /* color: black; */
+    /* color: linear-gradient(to right, red, yellow); */
+}
+
+.cata1 p {
+    margin: 2% 3% 4% 2%;
+    /* background-color: #E2D784; */
+}
+
+.cata1 p strong {
+    font-size: larger;
+}
+
+.cata1:hover {
+    border-right: 4px solid;
+    background-color: #E2D784;
+    transition: linear 0.1s;
+}
+
+
+/* catagories page complete------------------------------------------------------- */
+
+.down3 {
+    /* position: relative; */
+    display: flex;
+    /* flex-direction: row; */
+    /* background-color: aqua; */
+    height: 100vh;
+    width: 100%;
+}
+
+.down3 .image {
+    height: 100%;
+    background-color: blue;
+    width: 50%;
+    /* margin: 0%; */
+    /* margin-bottom: 0%; */
+    margin-right: 0%;
+}
+
+.down3 .content {
+    /* position: absolute; */
+    /* height: 100vh; */
+    width: 49%;
+    background-color: var(--clor4);
+    margin-left: 50%;
+    margin: 0% 0% 0% 50%;
+}
+
+.down3 .content b {
+    font-size: 50px;
+    font-weight: 300;
+}
+
+.down3 .content strong {
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.down3 .content i {
+    font-size: larger;
+}
+
+.down3 .content h3 {
+    font-size: 30px;
+    width: fit-content;
+}
+
+.down3 .content h3 i {
+    font-size: 30px;
+    /* margin: 5%; */
+    padding-right: 20px;
+}
+
+
+/* fooooooooooooooootttttteeeeeeeerrrrrrrrrr-----------------------------------STARTED */
+
+.footer {
+    background-color: var(--clor);
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    color: var(--clor4);
+}
+
+.footer .main1 ul {
+    /* display: flex; */
+    list-style: none;
+}
+
+.main1 h4 {
+    margin: 0%;
+    margin-top: 1%;
+}
+
+.main1 p {
+    margin-bottom: 0%;
+    margin-top: 1%;
+    padding-top: 5px;
+    font-size: 30px;
+    color: var(--clor3);
+}
+
+.main1 b {
+    color: var(--clor3);
+}
+
+
+/* maaaaaaaaaaaaaaaaaaaaaaaaaaaaaiiiiiiiiiiiiiiiiiinnnnnnnnnnnnnnnn11111111111111111111111 */
+
+.main2 ul {
+    list-style: none;
+}
+
+.main2 li {
+    font-size: 19px;
+    margin: 1%;
+}
+
+.main2 li h3 {
+    font-weight: 500;
+}
+
+.footer ul li:hover {
+    color: var(--clor3);
+}

@@ -1,0 +1,54 @@
+.one
+{
+    border: 3px solid rgb(245, 238, 238);
+   
+    width: 36%;
+    float: left;
+    padding: 43px;
+    height: 68vh;
+    margin-left: -1258px;
+    margin-top: 84px;
+   
+   
+   
+}
+.one:hover{
+    background-color: #3d464d;
+           color: white;
+}
+.two:hover
+{
+    background-color: #3d464d;
+           color: white;
+}
+.two
+{
+    border: 3px solid rgb(245, 238, 238);
+    width: 36%;
+    float: left;
+    padding: 30px;
+    margin-left: 35px;
+    height: 67vh;
+    padding: 43px 48px;
+    margin-top: 84px;
+}
+.three:hover
+{
+    background-color: #3d464d;
+           color: white;
+           background-color: #3e3d37;
+}
+.four:hover
+{
+    background-color: #3d464d;
+           color: white;
+           background-color: #3e3d37;
+}
+.FormLogin
+{
+    font-size: 20px;
+}
+.FormLogin input
+{
+    font-size: 15px;  
+}

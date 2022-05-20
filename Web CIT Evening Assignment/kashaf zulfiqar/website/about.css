@@ -1,0 +1,43 @@
+footer{
+    background-color: #101c32;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+  
+}
+footer .footer-col
+{
+    padding-bottom:40px;
+}
+footer h3{
+    color: rgb(241, 249, 245);
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+footer li{
+    list-style: none;
+    color: #7b838a;
+    padding: 10px 0;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+footer li:hover{
+    color: rgb(241,240,245);
+}
+footer p{
+    color:#7b838a;
+
+}
+footer .subscribe
+{
+    margin-top: 20px;
+}
+footer input{
+    width: 220px;
+    padding: 15px 12px ;
+    background: #334f6c;
+    border:none;
+    color:#fff;
+}

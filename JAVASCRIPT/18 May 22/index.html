@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <script>
+        function add(a = '2', b = '3') {
+
+            return a + b;
+        }
+
+
+        let result = add(3, 4);
+        document.write(result);
+        for (let a = 1; 10 > a; a++) {
+            for (let b = 1; b <= a; b++) {
+                document.write(b);
+            }
+            document.write(a+"<br>");
+        }
+    </script>
+</body>
+
+</html>

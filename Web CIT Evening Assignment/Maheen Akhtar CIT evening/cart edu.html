@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        .maincart{
+            background-color: rgb(238, 240, 239);
+        }
+        .cart1{
+            margin-left: 50%;
+        }
+        .colorrr{
+            background-color: rgb(47, 177, 149);
+        }
+        /* .maincart2{
+            background-color: rgb(192, 181, 181);
+        } */
+        .cart2{
+            display: flex;
+            justify-content: space-between;
+            list-style: none;
+            flex-direction: row;
+            margin-left: 10%;
+            margin-right: 10%;
+        }
+        /* .table{
+            background-color: rgb(192, 181, 181);
+        } */
+        .t1{
+            margin-top: 5%;
+            margin-left: 35%;
+        }
+        .t2{
+            background-color: black; color: white;
+        }
+        .t3{
+            background-color: light rgb(52, 186, 216);
+            color: rgb(211, 34, 34);
+        }
+        .cartT{
+            color: black;
+            margin-right: 45%;
+            margin-left: 40%;
+        }
+        .c1{
+            display: flex;
+            justify-content: space-between;
+            list-style: none;
+            flex-direction: row;
+        }
+        /* .cart{
+            background-color: rgb(192, 181, 181);
+        } */
+        .c2 ul{
+           display: flex;
+           justify-content: space-between;
+           list-style: none;
+           flex-direction: row;
+        }
+        .btn{
+            background-color: rgb(37, 139, 117);
+            color: white;
+            margin-left: 25%;
+        }
+        .h1{
+            margin-left: 20%;
+        }
+    </style>
+    <div class="maincart">
+        <div class="cart1">
+        <h1>Cart</h1><br><br><br>
+        <a href="">Home</a>/Cart
+    </div>
+    </div>
+    <div class="colorrr">
+    <div class="table">
+        <table border=""  class="t1">
+            <tr>
+                <th>Products</th>
+                <th>Price</th>
+                <th>Quantity</th>
+                <th>Total</th>
+            </tr>
+            <tr>
+                <th><img src="tablepic1.jpg" width="60%" height="40vh"></th>
+                <th>Trendy cloths</th>
+                <th>$90.00</th>
+                <th>1</th>
+            </tr>
+            <tr>
+                <th><img src="tablepic2.jpg" width="60%" height="40vh"></th>
+                <th>Sunglasses</th>
+                <th>$90.00</th>
+                <th>1</th>
+            </tr>
+            <tr>
+                <th><input type="text" placeholder="Coupon" name="name"></th>
+                <th colspan="2"><button class="t2">Apply Coupon</button></th>
+            </tr>
+            <tr>
+                <th colspan="4"><button class="t3">Update cart</button></th>
+            </tr>
+        </table>
+    </div>
+    <div class="cart">
+        <div class="cartT">
+            <h2 class="h1">Cart totals</h2>
+            <ul class="c1">
+                <li><b>Subtotal</b></li>
+                <li>$18.00</li>
+            </ul>
+            <div class="c2">
+            <ul>
+                <li><b>Total</b></li>
+                <li><b>$18.00</b></li>
+            </ul>
+            <button class="btn">Proceed to checkout</button>
+        </div>
+        </div>
+    </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,430 @@
+:root{
+--fontpink:#FF85B3;
+--fontblue:blue;
+--fontyellow:yellow;
+--fontred:rgb(223, 54, 54);
+--fontgrey:rgb(167, 153, 153);
+}
+
+.btn2 button{
+    
+    width: 25%;
+    padding: 22px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+
+}
+.btn2{margin-top: 32%;
+    margin-left: 33.9%;}
+
+
+.logo{
+    width: 30%;
+    height: 100%;
+
+    
+    }
+    
+    .logo img{width: 100%;
+    height: 100%;}
+
+    
+.main{
+        background-image: url(img/main\ pik.jpg);
+        width: 100%;
+        height: 95vh;
+    }
+.headermain{
+    display: flex;
+    height: 25vh;width: 100%;
+    justify-content: space-between;
+    /* background-color: #FF85B3; */
+    }
+.btn button{
+    padding: 15px;
+    /* background-color: ; */
+    margin-top: 40%;
+    border-radius: 20px;
+    margin-right: 20px;
+    /* box-shadow: 20px yellow; */
+    border: none;
+    /* color: yellow; */
+}
+.btn :hover{
+background-image: url(img/Shore.jpg);
+    /* background-color: #F900BF; */
+transition: 0.3s linear;
+transform: scale(1.3);
+}
+.sign ul{
+
+display: flex;
+list-style: none;
+/* border-right: solid red; */
+/* border-left: solid red; */;
+/* border-left: solid var(--fontred); */
+/* border-right: solid var(--fontred); */
+}
+.sign ul li{
+
+margin: 15px;
+padding: 15px;
+margin-top: 30px;
+margin-right: 45px;
+font-size: x-large;
+}
+.sign ul li:hover{
+font-family: 'Times New Roman', Times, serif;
+/* transform: scale(2); */
+color: #4700D8;
+}
+.father{
+    /* background-color: var(--yellow); */
+        width: 100%;
+        /* height: 77vh; */
+        /* display: flex; */
+
+    }
+.kid1{
+/* background-color: var(--fontred); */
+        width: 30%;
+    height: 58vh;
+    margin: 50px;
+    background-image: url(img/div1.png);
+
+}
+.kid2{
+    background-image: url(img/div2.png);
+    /* background-color: var(--fontred); */
+        width: 30%;
+    height: 58vh;
+    margin: 50px;
+    }
+.kid3{
+    background-image: url(img/div3.png);
+    /* background-color: var(--fontred); */
+        width: 30%;
+    height: 58vh;
+    margin: 50px;
+    }
+    .father2{
+        /* background-color: var(--yellow); */
+            width: 100%;
+            height: 77vh;
+            display: flex;
+    
+        }
+    .kid4{
+    /* background-color: var(--fontred); */
+            width: 30%;
+        height: 58vh;
+        margin: 50px;
+        background-image: url(img/div4.png);
+    
+    }
+    .kid5{
+        background-image: url(img/div5.png);
+        /* background-color: var(--fontred); */
+            width: 30%;
+        height: 58vh;
+        margin: 50px;
+        }
+    .kid6{
+        background-image: url(img/div6.png);
+        /* background-color: var(--fontred); */
+            width: 30%;
+        height: 58vh;
+        margin: 50px;
+        }
+        .father3{
+            /* background-color: var(--yellow); */
+                width: 100%;
+                height: 77vh;
+                display: flex;
+        
+            }
+        
+    .kid7{
+        background-image: url(img/div7.png);
+        /* background-color: var(--fontred); */
+            width: 25%;
+        height: 58vh;
+        margin: 50px;
+        text-align: center;
+    }
+    .kid1:hover{
+        
+        
+        border: none;
+        
+background-image: url(img/div1.png);
+    opacity: 0.5;background-color: black;
+
+}
+    .kid2:hover{
+        
+        
+        border: none;
+        
+background-image: url(img/div2.png);
+    opacity: 0.5;background-color: black;
+
+}
+    .kid3:hover{
+        
+        
+        border: none;
+        
+background-image: url(img/div3.png);
+    opacity: 0.5;background-color: black;
+
+}
+    .kid4:hover{
+        
+        
+        border: none;
+        
+background-image: url(img/div4.png);
+    opacity: 0.5;background-color: black;
+
+}
+    .kid5:hover{
+        
+        
+        border: none;
+        
+background-image: url(img/div5.png);
+    opacity: 0.5;background-color: black;
+
+}
+    .kid6:hover{
+        
+        
+        border: none;
+        
+background-image: url(img/div6.png);
+    opacity: 0.5;background-color: black;
+
+}
+    .kid7:hover{
+        
+        
+        border: none;
+        
+background-image: url(img/div7.png);
+    opacity: 0.5;background-color: black;
+
+}
+.boxes{
+    /* background-color: var(--fontgrey); */
+    height: 100vh;
+    display: flex;
+    width: 100%;
+}
+.box1{
+    margin-top: 10%;
+    padding-top: 5px;
+background-image: url(img/1.png);
+        background-color: var(--fontred);
+            width: 27%;
+        height: 33vh;
+        margin: 50px;
+        text-align: center;
+}
+.box2{
+    margin-top: 10%;
+    padding-top: 5px;
+background-image: url(img/div7.png);
+        background-color: var(--fontred);
+            width: 25%;
+        height: 40vh;
+        margin: 50px;
+        text-align: center;
+}
+.box3{
+    margin-top: 10%;
+    padding-top: 5px;
+background-image: url(img/div7.png);
+        background-color: var(--fontred);
+            width: 25%;
+        height: 40vh;
+        margin: 50px;
+        text-align: center;
+}
+.box4{
+    /* margin-top: 10%; */
+    /* padding-top: 5px; */
+background-image: url(img/div7.png);
+        background-color: var(--fontred);
+            width: 25%;
+        height: 40vh;
+        margin: 50px;
+        text-align: center;
+}
+.school:hover{
+/* background-color: var(--fontred); */
+/* color: var(--fontyellow); */
+padding: 10px;
+margin-bottom: -20px;
+/* border-radius: 20%; */
+}
+.botton{
+
+    
+    border: none;
+    color: white; 
+margin-top: 4%;
+        margin-left: 40%;
+    
+
+}
+.button button{
+    width: 25%;
+    padding: 22px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+
+}
+.botton button:hover{
+background-color: var(--fontblue);
+padding: 20px;
+color: white;
+font-size: 15px;
+
+}
+.imgmain ul{
+text-decoration: none;
+list-style: none;
+display: flex;
+padding-left: 34%;
+/* padding: 10px; */
+/* margin: 10px; */
+
+}
+.baba1:hover{
+background-image: url(img/Shore.jpg);
+opacity: 1.6;
+/* background-image: url(img/12.2.png); */
+padding: 10px;
+/* margin: 10px; */
+
+
+}
+.baba2:hover{
+    background-image: url(img/Shore.jpg);
+/* background-image: url(img/12.2.png); */
+padding: 10px;
+/* margin: 10px; */
+
+
+}
+.baba3:hover{
+    background-image: url(img/Shore.jpg);
+/* background-image: url(img/12.2.png); */
+padding: 10px;
+/* margin: 10px; */
+
+
+}
+.baba4:hover{
+    background-image: url(img/Shore.jpg);
+/* background-image: url(img/12.2.png); */
+padding: 10px;
+/* margin: 10px; */
+
+
+}:root{
+    --fontpink:#FF85B3;
+    --fontblack:black;
+    --fontblue:blue;
+    --fontyellow:yellow;
+    --fontred:rgb(223, 54, 54);
+    --fontgrey:rgb(167, 153, 153);
+    --fontnew:rgb(0,100,0);
+    --fontwhite:white;
+    --fontlightgreen:lightgreen;
+    }
+    *
+    {
+        padding: 0%;
+        margin: 0%;
+    }
+.body
+{
+    background-image: url(img/Shore.jpg);
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.menu-bar
+{    
+    background: var(--fontnew);
+    text-align: center;
+
+}
+.menu-bar ul
+{
+    display: flex;
+    list-style: none;
+    color: var(--fontwhite);
+}
+.menu-bar ul li
+{
+    width: 100px;
+    margin: 15px;
+    padding: 15px;
+}
+.menu-bar ul a
+{
+    text-decoration: none;
+    color: var(--fontwhite);
+}
+.active, .menu-bar ul li:hover
+{
+
+    background: forestgreen;
+    border-radius: 3px;
+
+}
+.menu-bar.fa
+{
+    margin: 3px;
+}
+.sub-menu-1
+{
+    display: none;
+}
+.menu-bar ul li:hover .sub-menu-1
+{
+    display: block;
+    position: absolute;
+    background: var(--fontlightgreen);
+    margin-top: 15px;
+    margin-left: -15px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul
+{
+    display: block;
+    margin: 10px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li
+{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted var(--fontwhite);
+    background: transparent;
+    border-radius: 0%;
+    text-align: left;
+
+}
+.menu-bar ul li:hover .sub-menu-1 ul li:last-child
+{
+    border-bottom: none;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li a:hover
+{
+    color: var(--fontblack);
+}

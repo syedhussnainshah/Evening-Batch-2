@@ -1,0 +1,65 @@
+<!DOCTYPE htlm>
+<html></html>
+<head></head>
+<title></title>
+<body></body>
+<h1></h1>
+<h2></h2>
+<h3></h3>
+<h4></h4>
+<h5></h5>
+<h6></h6>
+<p></p>for paragraph
+<em></em>for emphasize text
+<a></a>to creat a link
+<br>self closing tag
+<hr>for line
+<button></button>to creat button
+<input type>self closing
+<required>for compulsory data
+<table Border=""></table>
+<tr></tr>
+<th></th><rowspan></rowspan>
+<td></td><colspan></colspan>
+<bgcolor="purple">
+<img src="image/1.jpg" height="100%" alt="For src">
+<video src="vid/1.mp4"controls muted width="100%"autoplay></video>
+<a href="https://getmimo.com">learn to code</a>
+<a href="https://facebook.com">like us on facebook</a>
+<div></div>to creat a group of elements, we surround the elements with <div> and </div> tags.
+
+<body>
+<div>
+<h3>latest news</h3>
+<h1>where VC's are investing in Fintech</h1>
+<p>The best step to becoming a web developer....</p>
+</div>
+</body>
+
+<li></li>for list
+<ol></ol>for ordered list
+<ul></ul>for unordered list
+
+<body>
+<ul>
+<li>Top Economic Powers
+<ol>
+<li>United States</li>
+<li>China</li>
+<li>Japan</li>
+</ol>
+</li>
+</ul>
+</body>
+The ordered list is nested in the unordered list
+
+<body>
+Useful Links
+<ul>
+<li><a href="https://weather.com">Weather</a></li>
+</ul>
+</body>
+
+<ifram src="https://twitter.com/i/broadcast/1yNGaYoqzwEGj></ifram>
+<Section class="section 1"id"33100896958483">
+<marquee></marquee>for rotation

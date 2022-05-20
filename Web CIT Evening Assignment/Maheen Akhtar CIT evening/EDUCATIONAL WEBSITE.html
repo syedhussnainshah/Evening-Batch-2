@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        .divmaindiv{
+            display: flex;
+            justify-content: space-between;
+            flex-direction: row;
+        }
+        body {
+            background-color: white;
+        }
+
+        header {
+            background-color: rgb(51, 163, 167);
+            padding: 2px;
+            box-shadow: 0 0 13px black;
+            color: white;
+        }
+
+        header li {
+            list-style: none;
+            padding: 0%;
+            margin: 0%;
+            display: inline;
+        }
+
+        .diva {
+            margin-left: 5%;
+            margin-right: 35%;
+        }
+
+        .divb {
+            margin-right: 1%;
+            border-left: 3%;
+        }
+
+        .divc {
+            margin-right: 1%;
+        }
+
+        .divd {
+            margin-right: 1%;
+        }
+
+        .diva:hover {
+            color: black;
+        }
+
+        .divb:hover {
+            color: black;
+        }
+
+        .divc:hover {
+            color: black;
+        }
+
+        .divd:hover {
+            color: black;
+        }
+
+        .divA li {
+            list-style: none;
+            /* padding: 0%;
+            margin: 0%; */
+            display: inline;
+            text-decoration: column;
+            text-align: center;
+            /*margin-left: 5%;*/
+            margin-left: -50%;
+            margin-right: 50%;
+            justify-content: space-between;
+        }
+        .divA1>li {
+            position: relative;
+        }
+        .divA1>li:hover > ul {
+            display: block;
+            position: absolute;
+            width: 100px;
+            background-color: rgb(15, 189, 219);
+        }
+        .divA1>li>ul {
+            display: none;
+        }
+        .divB {
+            margin-top: 3%;
+            width: 10%;
+            /* justify-content: space-between; */
+            margin-left: 5%;
+        }
+        .divA ul {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 3%;
+            margin-left: 5%;
+        }
+        .div3 {
+            margin-right: 60%;
+        }
+        .divM {
+            flex-direction: column;
+            display: none;
+        }
+        .divM:hover {
+            display: block----;
+        }
+        .EDU {
+            background-color: rgb(233, 227, 227);
+        }
+        .edu1 {
+            margin-left: 40%;
+            color: rgb(22, 173, 173);
+        }
+        .edu2 {
+            margin-left: 33%;
+        }
+        .edu3 {
+            margin-left: 33%;
+        }
+        .edu5 {
+            margin-left: 17%;
+        }
+        .hehe {
+            display: flex;
+            justify-content: space-between;
+            flex-direction: row;
+            margin-left: 15%;
+            margin-right: 15%;
+            margin-top: 5%;
+        }
+        .about {
+            display: flex;
+            justify-content: space-between;
+            flex-direction: row;
+            margin-top: 5%;
+            margin-left: 10%;
+        }
+        .about2 {
+            margin-left: 25%;
+            color: rgb(18, 185, 197);
+        }
+        .about4{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            margin-bottom: 20%;
+            margin-top: 5%;
+        }
+        .about7 {
+            background-color: rgb(11, 218, 190);
+            color: white;
+        }
+        .about8{
+            background-color: rgb(199, 193, 193);
+        }
+        .about9{
+            margin-left: 30%;
+        }
+        .about10{
+            margin-left: 20%;
+        }
+        .about11{
+            margin-left: 20%;
+        }
+        .about12{
+            margin-left: 15%;
+        }
+        .mainabout13{
+            display: flex;
+            justify-content: space-between;
+            flex-direction: row;
+            margin-left: 5%;
+            margin-right: 5%;
+            margin-top: 5%;
+        }
+        .about17:hover{
+            color: rgb(9, 230, 182);
+        }
+        .about18:hover{
+            color: rgb(9, 230, 182);
+        }
+        .about19:hover{
+            color: rgb(9, 230, 182);
+        }
+        .about20:hover{
+            color: rgb(16, 230, 212);
+        }
+        .about21:hover{
+            color: rgb(16, 230, 212);
+        }
+        .about22:hover{
+            color: rgb(16, 230, 212);
+        }
+        .about23{
+            margin-top: 5%;
+            margin-left: 25%;
+        }
+        .li1{
+            margin-left: 5%;
+        }
+        .li6{
+            margin-left: 15%;
+            margin-right: 30%;
+        }
+        .cs1h>li{
+            display: block;
+        }
+        .cs1h:hover{
+            display: none;
+        }
+        .pages1>li{
+            display: block;
+        }
+        .pages1:hover{
+            display: none;
+        }
+    </style>
+    <header>
+        <ul class="div">
+            <li class="diva">Are you interesting in joining program?Contact me.</li>
+            <li class="divb">Join Now</li>
+            <li class="divc">Courses</li>
+            <li class="divd">MemberShip Login</li>
+        </ul>
+    </header>
+    <div class="divmaindiv">
+    <div class="divB">
+        <img src="dark-logo.png" width="90%">
+    </div>
+    <div class="divA">
+        <ul class="divA1">
+            <li class="li1">Home
+                <ul class="divM">
+                    <li><a href="EDUCATIONAL WEBSITE.html">Home1</a></li>
+                    <li>Home2</li>
+                    <li>Home3</li>
+                    <li>Home4</li>
+                    <li>Home5</li>
+                </ul>
+            </li>
+            <li class="li2">About Us</li>
+            <li class="li3">Coruses
+                <ul class="cs1h">
+                    <li><a href="courses style 1.html">Courses style 1</a></li>
+                    <li><a href="courses style 2.html">Courses style 2</a></li>
+                    <li><a href="courses style 3.html">Courses style 3</a></li>
+                    <li><a href="course details style 1.html">Courses details style 1</a></li>
+                </ul>
+            </li>
+            <li class="li4">Pages
+                <ul class="pages1">
+                    <li><a href="login edu.html">login</a></li>
+                    <li><a href="login edu.html">registration</a></li>
+                    <li><a href="cart edu.html">cart</a></li>
+                    <li><a href="checkout.html">checkout</a></li>
+                    <li><a href="404.html">404</a></li>
+                </ul>
+            </li>
+            <li class="li5">Blogs</li>
+            <li class="li6">Contact</li>
+        </ul>
+    </div>
+</div>
+    <div class="EDU">
+        <div class="edu1">
+            MAXIMIZE YOUR POTENTIALS
+        </div>
+        <div class="edu2">
+            <h1>Learn the secrets to Life Success</h1>
+        </div>
+        <div class="edu3">
+            <p class="edu4">The ultimate planning solution for busy women who want to reach</p>
+            <p class="edu5">their personal goals</p>
+        </div>
+    </div>
+    <div class="hehe">
+        <div class="Aa">
+            <img src="flag.jfif" height="150vh" width="100%"><br>
+            <h2>Expert Teacher</h2><br>
+            Develop skills for career of various<br>majors including computer
+        </div>
+        <div>
+            <img src="3books.jfif" height="150vh" width="100%"><br>
+            <h2>Self Development</h2><br>
+            Develop skills for career of various<br>majors including computer
+        </div>
+        <div>
+            <img src="vedio.jfif" height="150vh" width="100%"><br>
+            <h2>Remote Learning</h2><br>
+            Develop skills for career of various<br>majors including computer
+        </div>
+        <div>
+            <img src="circle.jfif" height="150vh" width="100%"><br>
+            <h2>Life Time Support</h2><br>
+            Develop skills for career of various<br>majors including computer
+        </div>
+    </div>
+    <div class="about">
+        <div class="about1">
+            <img src="about.jpg">
+        </div>
+        <div class="about4">
+        <div class="about2">
+            SELF DEVELOPMENT COURSE
+        </div><br><br><br><br>
+        <div class="about3">
+            <h2>Get Instant Access To Expert solution</h2>
+        </div><br><br>
+        <div class="about5">The ultimate planning solution for busy women who want to reach their personal goals.<br><br>
+            Effortless comfortable eye-catching unique detail:</div><br><br><br>
+        <div class="about6">
+            <h3> 1.High Quality Video Details</h3><br><br>
+            <h3> 2.Powerful Audiance</h3><br><br>
+            <h3>3.Premium Content Worldwide</h3><br><br>
+            <button class="about7">OUR COURSES</button>
+        </div>
+    </div>
+    </div>
+    <div class="about8">
+    <div class="about9">
+        <h5 class="about10">TRANING COURSES</h5>
+        <h1>Popular Online Courses Around<br><span class="about11">You</span></h1>
+        <p>The ultimate planning solution for busy women who want to reach<br><span class="about12">their personal goals</span></p>
+    </div>
+    <div class="mainabout13">
+        <div class="about14">
+            <img src="c1.jpg"><br><br>
+            <p class="about17">GRAPHIC DESIGN</p><br><br>
+            <h2 class="about20">Information About<br>UI/UX Design<br>Degree</h2>
+        </div>
+        <div class="about15">
+            <img src="c3.jpg"><br><br>
+            <p class="about18">WEB DESIGN</p><br><br>
+            <h2 class="about21">React – The<br>Complete Guide<br>(React Router)</h2>
+        </div>
+        <div class="about16">
+            <img src="c2.jpg"><br><br>
+            <p class="about19">PHOTOGRAPHY</p><br><br>
+            <h2 class="about22">Photography Crash<br>Course for<br>Photographer</h2>
+        </div>
+    </div>
+    <p class="about23">Taking the control of their life back and start doing things to make their dream come true. <a href="404.html">View all courses</a></p>
+</div>
+    </div>
+</body>
+
+</html>

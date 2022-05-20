@@ -1,0 +1,119 @@
+ * {
+     margin: 0;
+     padding: 0%;
+ }
+ 
+ :root {
+     --bgcolor: white;
+     --color: red;
+ }
+ 
+ .header {
+     height: 100vh;
+     width: 100%;
+     background-image: url(image/banner.png);
+     background-position: center;
+     background-size: cover;
+ }
+ 
+ .header img {
+     margin-left: 50px;
+ }
+ 
+ .nav {
+     display: flex;
+     padding: 2% 6%;
+     justify-content: space-between;
+     align-items: center;
+ }
+ 
+ .nav img {
+     width: 150px;
+ }
+ 
+ .nav-links {
+     flex: 1;
+     text-align: right;
+ }
+ 
+ .nav-links ul {
+     margin-top: -70px;
+     margin-right: 70px;
+ }
+ 
+ .nav-links ul li {
+     list-style: none;
+     display: inline-block;
+     padding: 8px 12px;
+     position: relative;
+ }
+ 
+ .header a {
+     color: var(--bgcolor);
+     text-decoration: none;
+     font-size: large;
+ }
+ 
+ .nav-links ul li ::after {
+     content: "";
+     width: 0%;
+     background: var(--bgcolor);
+     display: block;
+     margin: auto;
+ }
+ 
+ .text {
+     width: 80%;
+     color: var(--bgcolor);
+     position: absolute;
+     top: 50%;
+     left: 10%;
+     transform: translate(-50% -50%);
+     text-align: center;
+ }
+ 
+ .text h1 {
+     font-size: 50px;
+     color: var(--color);
+ }
+ 
+ .parenndrop {
+     position: relative;
+ }
+ 
+ .dropbtn {}
+ 
+ .content {
+     display: none;
+     position: absolute;
+     z-index: 1;
+ }
+ 
+ .parendrop:hover .content {
+     display: flex;
+     flex-direction: column;
+ }
+ 
+ @media screen AND (max-width: 700px) {
+     .text h1 {
+         font-size: 35px;
+     }
+     .nav-links ul li {
+         display: block;
+     }
+     .nav-links {
+         position: absolute;
+         background-color: burlywood;
+         height: 100vh;
+         width: 200px;
+         top: 0;
+         right: 0%;
+         text-align: left;
+         z-index: 2;
+     }
+ }
+ 
+ .max {
+     display: flex;
+     flex-direction: column;
+ }

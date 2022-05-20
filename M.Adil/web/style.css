@@ -1,0 +1,159 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    background: url(imgback2.jpg);
+    justify-items: center;
+    min-height: 30rem;
+}
+nav{
+    width: 100%;
+    line-height: 80px;
+    height: 80px;
+    background-color: whitesmoke;
+}
+nav ul{
+    float: right;
+    margin: 0;
+    margin-right: 1.9rem;
+}
+nav ul li{
+    list-style-type: none;
+    float: left;
+}
+nav ul li a{
+    text-decoration: none;
+    color: burlywood;
+    padding: 20px;
+}
+img{
+    width: 12%;
+    margin-left: 0.1rem;
+    margin-top: -0.4%;
+}
+nav ul li:hover{
+    background-color: coral;
+    color: blanchedalmond;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.section{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    margin: 4%;
+}
+.section h1{
+    color: azure;
+    line-height: 50px;
+}
+.section p{
+    color: gray;
+
+}
+.btn-1{
+    background-color: blanchedalmond;
+    padding: 0.7rem 1rem;
+    color: aliceblue;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.btn-1,button:hover{
+    background-color: coral;
+    cursor: pointer;
+    color: burlywood;
+    font-size: bold;
+}
+.feature{
+    margin-top: 4%;
+    margin-bottom: 2%;
+}
+.feature button{
+    padding: 0.7rem 2rem;
+    margin-right: 1.2rem;
+    font-size: 1.2rem;
+    opacity: 0.7;
+}
+showcase h1{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: center;
+}
+#courses{
+    display: flex;
+    text-align: center;
+}
+#courses img{
+    width: 250px;
+    border-radius: 10px;
+    border: 2px solid beige;
+}
+.apply here {
+    margin-top: 4%;
+    background-color: orangered;
+    padding: 0.7rem 1rem;
+    color: aliceblue;
+    border: none;
+    border-radius: 10px;
+}
+footer{
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1.2rem;
+    margin-top: 4%;
+}
+.sub-menu-1{
+    display: none;
+}
+nav ul li:hover .sub-menu-1
+{
+    display: block;
+    position: absolute;
+    background-color: coral;
+    margin-top: 5px;
+    margin-left: -5px;
+}
+.foter{
+    background-color: #333;
+}
+.foter .box-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.box{
+    display: flex;
+    padding: 20PX;
+    float: left 30px;
+}
+.foter .box-container .box{
+    text-align: center;
+    /* flex: 4rem; */
+}
+.foter .box-container .box h3{
+    margin: 20px;
+    font-size: 20px;
+    color: #fff;
+    padding: 10px;
+}
+
+.foter .box-container .box ul{
+    font-size: 20px;
+    color: #eee;
+    padding: 4px;
+}
+.foter .box-container .box li{
+    font-size: 20px;
+    display: block;
+    padding: 10px;
+    color: #eee;
+    cursor: pointer;
+}
+.foter .box-container .box li :hover{
+    und
+
+}
