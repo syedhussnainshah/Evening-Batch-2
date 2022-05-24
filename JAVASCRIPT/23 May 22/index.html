@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <input type="text" id="todoinput">
+    <button id="todobtn">Add</button>
+    <ul id="todounorder">
+
+    </ul>
+
+    <script>
+        let input = document.getElementById('todoinput');
+        let btn = document.getElementById('todobtn');
+        let ul = document.getElementById('todounorder');
+        btn.addEventListener('click', function () {
+            let li = document.createElement('li');
+            let liinput = document.createElement('input');
+            liinput.setAttribute('value', 'value');
+            liinput.setAttribute('readonly', 'readonly');
+            liinput.value = input.value;
+            li.appendChild(liinput);
+            ul.appendChild(li);
+            console.log(liinput);
+        })
+    </script>
+</body>
+
+</html>
