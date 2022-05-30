@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <input type="text" id="todoinput">
+    <button id="todobtn">Add me</button>
+    <ul id="unorder">
+
+    </ul>
+    <script>
+        let todoinput = document.getElementById('todoinput');
+        let todobtn = document.getElementById('todobtn');
+        let ul = document.getElementById("unorder");
+        todobtn.addEventListener('click', function () {
+            let li = document.createElement('li');
+            let input = document.createElement('input');
+            input.setAttribute('value', todoinput.value);
+            input.setAttribute('readonly', 'readonly');
+            let edit = document.createElement('button');
+            edit.innerHTML = "Edit";
+            let del = document.createElement('button');
+            del.innerHTML = "Delete";
+            li.appendChild(input);
+            li.appendChild(edit);
+            li.appendChild(del);
+            ul.appendChild(li);
+            console.log(li);
+            edit.addEventListener('click', function () {
+                if (edit.innerHTML == 'Edit') {
+                    input.removeAttribute('readonly', 'readonly');
+                    edit.innerHTML = 'save';
+                } else {
+                    input.setAttribute('readonly', 'readonly');
+                    edit.innerHTML = "Edit";
+
+
+                }
+            })
+            del.addEventListener('click', function () {
+                ul.removeChild(li);
+            })
+        })
+    </script>
+
+</body>
+
+</html>
